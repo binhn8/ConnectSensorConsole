@@ -79,6 +79,7 @@ namespace ConnectSensorConsole
 
                 Console.WriteLine("Start exporting fill data");
 
+                strResult = "";
                 // Export Fill data 
                 for (int i = 0; i < results.Length; i++)
                 {
@@ -100,7 +101,7 @@ namespace ConnectSensorConsole
                     strResult = strResult + strNewLine;
                 }
 
-                System.IO.File.WriteAllText(@"C:\Fill.log", strResult);
+                System.IO.File.AppendAllText(@"C:\Level.log", strResult);
 
                 Console.WriteLine("Completed exporting fill data");
             }
