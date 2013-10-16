@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ConnectSensorConsole.exe" version="1.0.0.1" publicKeyToken="ea63d2b17ac73b18" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConnectSensorConsole" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ConnectSensorConsole.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConnectSensorConsole.exe" size="16384">
+      <assemblyIdentity name="ConnectSensorConsole" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mnTVXEj9Tpb3uIlKximIy7kkRXE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConnectSensorConsole.exe.config" size="1006">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>882i8iv0/XyLYC2DwTa5c79G/58=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=METERINGTECH\Binh" issuerKeyHash="a9a3dcdca06d88376d256cfc534eef766064cfec" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>t82QvRI9qk9dLhTzGNBacMbLnHw=</DigestValue></Reference></SignedInfo><SignatureValue>NiTSO/Rr+JjPmhbpstmVD1dTJntlvsAutZdFwRxV3FNHtdNLl5eZ3DU+StsygQwISump+4+gjf8PIMt9lznXXQW6pOuht5ssbRVggfzZhyxCOXe/4sPhwt/beQ+9jIpe3OqsSn9AoAXm6VCsyq8yaSUmhIVETsMAZ/eEr62+XU0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3aDDw95ebye/ZNr8KyQ1E3BYrD5+Ij7EcUMn3i8zNybhWKuZ8sIf+pqApadEfsMzPE6vSA37kf8IFxO/GPFXAVntEHq2UJzvW03Iwk85TbdBOiUSjoGGKp0DCmn6cXxaFlm8dvdDfrNpTZf2Zu1KV8hlzpUG7wn4g9UDoNmvIOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7c9ccbc6705ad018f3142e5d4faa3d12bd90cdb7" Description="" Url=""><as:assemblyIdentity name="ConnectSensorConsole.exe" version="1.0.0.1" publicKeyToken="ea63d2b17ac73b18" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=METERINGTECH\Binh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yEwnMZsbqUje+LykTtPUWl5cFnM=</DigestValue></Reference></SignedInfo><SignatureValue>To/q27u8Gsr6qcQIukUhCBLevFQKdusZyUdn0JLO70DLpuFsKRgBYmBMyLRcUa1yoyjxMgH2ELab8jzL7brkRSSWYVBsP+DIFBRjXJpbrKz5yPqV5M2wGh7FZIZ6Cve/q1SLFW2nmVbvTJ7eXbNzRL31sL1rJlUN+riB81NsKqU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3aDDw95ebye/ZNr8KyQ1E3BYrD5+Ij7EcUMn3i8zNybhWKuZ8sIf+pqApadEfsMzPE6vSA37kf8IFxO/GPFXAVntEHq2UJzvW03Iwk85TbdBOiUSjoGGKp0DCmn6cXxaFlm8dvdDfrNpTZf2Zu1KV8hlzpUG7wn4g9UDoNmvIOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQTzc6B8vE5aJGBtYCyEq6ajANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIATQBFAFQARQBSAEkATgBHAFQARQBDAEgAXABCAGkAbgBoMB4XDTEzMTAxNjEwMDA0OVoXDTE0MTAxNjE2MDA0OVowLTErMCkGA1UEAx4iAE0ARQBUAEUAUgBJAE4ARwBUAEUAQwBIAFwAQgBpAG4AaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3aDDw95ebye/ZNr8KyQ1E3BYrD5+Ij7EcUMn3i8zNybhWKuZ8sIf+pqApadEfsMzPE6vSA37kf8IFxO/GPFXAVntEHq2UJzvW03Iwk85TbdBOiUSjoGGKp0DCmn6cXxaFlm8dvdDfrNpTZf2Zu1KV8hlzpUG7wn4g9UDoNmvIOkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAO7Nt402uMqZ/GDuMnExXQ11v4ACMPV2uzrqetlvgN11p/1z6j/3IroahiIalt/mNMb1nwqP+EBUu29QHFsPrOBmv+719d6XCHr6N0tco0Pp7a3uvoz/PtaoOCLvRQYGdNA7DIHABXVIGQHdPI8xQ+5ocux+wAD4yBLXAlbNYxAA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

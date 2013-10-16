@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://www.connectsensor.com/soap/telemetry.asmx?wsdl" docRef="https://www.connectsensor.com/soap/telemetry.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://www.connectsensor.com/soap/telemetry.asmx" xmlns:q1="http://sens4/" binding="q1:TelemetrySoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://www.connectsensor.com/soap/telemetry.asmx" xmlns:q2="http://sens4/" binding="q2:TelemetrySoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
